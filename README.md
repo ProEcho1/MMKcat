@@ -11,3 +11,8 @@ Accurate prediction of the turnover number ($k_{\rm cat}$), which quantifies the
 <h2 id="overview"> ⚙️ Install Necessary Dependencies </h2>
 
 - Firstly, please make sure that you have installed **ESM2** and **ESMFold** correctly with their corresponding pre-trained checkpoints. Concretely, you can follow the official instructions in this [repository](https://github.com/facebookresearch/esm) to prepare. Please note that we select **ESM2_t33_650M_UR50D** for **ESM2** in our experiments.
+- After installing **EMS2** and **ESMFold** correctly, run the following command to complete this part:
+```
+pip install -r requirements.txt
+```
+
