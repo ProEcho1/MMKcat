@@ -15,4 +15,12 @@ Accurate prediction of the turnover number ($k_{\rm cat}$), which quantifies the
 ```
 pip install -r requirements.txt
 ```
+- ⚠️ You may encounter the issue of the use of dssp for a error like FileNotFoundError: \[Errno 2\] No such file or directory: 'mkdssp'. If this doesn't happen, please ignore this. If so, to solve this problem, we use the following commands:
+```
+conda install -c ostrokach dssp
+which mkdssp  # Here, we denote this path as 'dssp_path'
+cd dssp_path
+cp mkdssp dssp
+```
+Then we add this path to environmental variable **PATH** to make it work (It can also be added like the codes in model/test_examplt.py).
 
