@@ -1,8 +1,8 @@
 <h1 align="center">
-  <img src="pic/logo.png" alt="Logo" width="50" height="50" style="vertical-align: middle;">
+  <img src="pic/logo.png" alt="Logo" width="50" height="50" style="vertical-align: middle; margin-right: 20px;">
   MMKcat
 </h1>
-<h2 align="center" style="margin-bottom: 10px;">A Multimodal Deep Learning Framework for Enzyme Turnover Prediction with Missing Modality</h2>
+<h2 align="center">A Multimodal Deep Learning Framework for Enzyme Turnover Prediction with Missing Modality</h2>
 
 ![The Overall Architecture of MMKcat.](pic/model.png)
 
