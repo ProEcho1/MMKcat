@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="pic/logo.png" alt="Logo" width="50" height="50" style="vertical-align: middle; margin-right: 20px;">
+  <img src="pic/logo.png" alt="Logo" width="50" height="50" style="vertical-align: middle; margin-right: 50px;">
   MMKcat
 </h1>
 <h2 align="center">A Multimodal Deep Learning Framework for Enzyme Turnover Prediction with Missing Modality</h2>
