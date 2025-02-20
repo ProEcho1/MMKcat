@@ -35,7 +35,7 @@ Then we add this path to environmental variable **PATH** to make it work. It can
 |   | util
 |   | ...
 ```
-- We provide the link for downloading pre-trained checkpoint files of MMKcat, please get it from this [link]() and put it in the folder **'ckpt'**.
+- We provide the link for downloading pre-trained checkpoint files of MMKcat, please get it from this [link](https://drive.google.com/drive/folders/1sVg9gfi_wQxZwbnylLrpmek15_aEbNs8?usp=drive_link) and put it in the folder **'ckpt'**.
 
 <h2> 🧪 Perform $k_{\rm cat}$ Prediction for Chemical Reactions </h2>
 
@@ -64,7 +64,7 @@ if __name__ == '__main__':
 
 <h2> 🏗️ Re-training and Testing (Optional) </h2>
 
-If you would like to re-train MMKcat based on your own software and hardware environments, you can get the full traning data and testing data from this [link]() and put them in the folder **'data'**. Then you can run model/train_model.py and model/test_model.py to finish this:
+If you would like to re-train MMKcat based on your own software and hardware environments, you can get the full traning data and testing data from this [link](https://drive.google.com/drive/folders/1ry4JpdD3jWTO-WsLOnobmr6AyhYz562j?usp=drive_link) and put them in the folder **'data'**. Then you can run model/train_model.py and model/test_model.py to finish this:
 ```python
 cd model
 python train_model.py  # OR
