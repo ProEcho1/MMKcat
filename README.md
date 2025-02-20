@@ -5,7 +5,7 @@
 <h2 align="center">A Multimodal Deep Learning Framework for Enzyme Turnover Prediction with Missing Modality</h2>
 
 <p> 
-  ![GitHub License](https://img.shields.io/github/license/ProEcho1/MMKcat)
+  <a><img src="https://img.shields.io/github/license/ProEcho1/MMKcat"></a>
 </p> 
 
 ![The Overall Architecture of MMKcat.](pic/model.png)
