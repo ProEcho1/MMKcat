@@ -66,6 +66,9 @@ if __name__ == '__main__':
 
     kcat = predict_kcat(substrate_smiles=substrate_smiles, protein_sequence=protein_sequence,
                         product_smiles=product_smiles)
+
+    # Report the results in both log10 and transformed
+    print(kcat, math.pow(10, kcat))
 ```
 
 <h2> 🏗️ Re-training and Testing (Optional) </h2>
