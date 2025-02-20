@@ -153,6 +153,5 @@ with torch.no_grad():
 
         new_data = {'Mask': mask, 'RMSE': RMSE, 'R2': R2, 'SRCC': correlation}
         df = pd.concat([df, pd.DataFrame([new_data])], ignore_index=True)
-        break
 
     df.to_csv(f'{save_path}/testing_results.csv')
