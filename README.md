@@ -24,14 +24,24 @@ cp mkdssp dssp
 ```
 Then we add this path to environmental variable **PATH** to make it work. It can also be added like the codes in model/test_examplt.py.
 
-<h2> 🧰 Download Checkpoint File for MMKcat </h2>
+<h2> 🧰 Download Codes and Checkpoint Files for MMKcat </h2>
 
-We provide the link for downloading pre-trained checkpoint file of MMKcat, please get it from this [link]() and put it in folder **ckpt**.
+- Download this repository and put it under your root project folder like:
+```
+| MMKcat
+|   | model
+|   | ckpt
+|   | data
+|   | util
+|   | ...
+```
+- We provide the link for downloading pre-trained checkpoint files of MMKcat, please get it from this [link]() and put it in the folder **ckpt**.
 
 <h2> 🧪 Perform $k_{\rm cat}$ Prediction for Chemical Reactions </h2>
 
 Use the code in model/test_example.py for $k_{\rm cat}$ prediction.
 ```python
+......
 os.environ['TORCH_HOME'] = 'the_path_you_put_the_checkpoint_files_of_EMS2_and_ESMFold'
 # Solve the issue of dssp
 sys.path.append('../util')
@@ -42,7 +52,7 @@ os.environ['PATH'] = f"{new_path}:{current_path}"
 ......
 
 if __name__ == '__main__':
-    # Replace the values of these variables to yours
+    # Replace the values of these variables to your chemical reactions
     substrate_smiles = ["CSCC[C@H](N)C(O)=NCC(=O)O"]
     protein_sequence = "MFLLPLPAAARVAVRHLSVKRLWAPGPAAADMTKGLVLGIYSKEKEEDEPQFTSAGENFNKLVSGKLREILNISGPPLKAGKTRTFYGLHEDFPSVVVVGLGKKTAGIDEQENWHEGKENIRAAVAAGCRQIQDLEIPSVEVDPCGDAQAAAEGAVLGLYEYDDLKQKRKVVVSAKLHGSEDQEAWQRGVLFASGQNLARRLMETPANEMTPTKFAEIVEENLKSASIKTDVFIRPKSWIEEQEMGSFLSVAKGSEEPPVFLEIHYKGSPNASEPPLVFVGKGITFDSGGISIKAAANMDLMRADMGGAATICSAIVSAAKLDLPINIVGLAPLCENMPSGKANKPGDVVRARNGKTIQVDNTDAEGRLILADALCYAHTFNPKVIINAATLTGAMDIALGSGATGVFTNSSWLWNKLFEASIETGDRVWRMPLFEHYTRQVIDCQLADVNNIGKYRSAGACTAAAFLKEFVTHPKWAHLDIAGVMTNKDEVPYLRKGMAGRPTRTLIEFLFRFSQDSA"
     # if products are unknown, please set this variable as: product_smiles = [[None]]
@@ -50,4 +60,13 @@ if __name__ == '__main__':
 
     kcat = predict_kcat(substrate_smiles=substrate_smiles, protein_sequence=protein_sequence,
                         product_smiles=product_smiles)
+```
+
+<h2> 🏗️ Re-training and Testing (Optional) </h2>
+
+If you would like to re-train MMKcat based on your own software and hardware environments, you can get the full traning data and testing data from this [link]() and put them in the folder **data**. Then you can run model/train_model.py and model/test_model.py to finish this:
+```python
+cd model
+python train_model.py  # OR
+python test_model.py
 ```
