@@ -6,7 +6,7 @@
 
 <p> 
   <a><img src="https://img.shields.io/github/license/ProEcho1/MMKcat"></a>
-  <a><img src="https://img.shields.io/github/realese/ProEcho1/MMKcat"></a>
+  <a><img src="https://img.shields.io/github/commits-since/ProEcho1/MMKcat"></a>
 </p> 
 
 ![The Overall Architecture of MMKcat.](pic/model.png)
