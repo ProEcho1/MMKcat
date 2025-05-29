@@ -84,7 +84,7 @@ python test_model.py
 
 <h2> 🔋 Citation </h2>
 If you find this repository helpful, please cite our paper:
-```python
+```
 @article{sun2025multimodal,
   title={A multimodal deep learning framework for enzyme turnover prediction with missing modality},
   author={Sun, Xin and Wang, Yu Guang and Shen, Yiqing},
