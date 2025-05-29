@@ -10,9 +10,7 @@
   <a><img src="https://img.shields.io/badge/Python-3.8.13-red"></a>
 </p> 
 
-<div>
-🚩 Update: 2025/05/29 Our paper has been accepted by Computers in Biology and Medicine, and can be obtained from this [link](https://www.sciencedirect.com/science/article/pii/S0010482525006997).
-</div>
+🚩 **Update: 2025/05/29 Our paper has been accepted by Computers in Biology and Medicine, and can be obtained from this [link](https://www.sciencedirect.com/science/article/pii/S0010482525006997).**
 
 ![The Overall Architecture of MMKcat.](pic/model.png)
 
@@ -32,7 +30,7 @@ which mkdssp  # Here, we denote this path as 'dssp_path'
 cd dssp_path
 cp mkdssp dssp
 ```
-Then we add this path to environmental variable **PATH** to make it work. It can also be added like the codes in model/test_examplt.py.
+Then we add this path to environmental variable **PATH** to make it work. It can also be added like the codes in model/test_example.py.
 
 <h2> 🧰 Download Codes and Checkpoint Files for MMKcat </h2>
 
@@ -83,3 +81,16 @@ cd model
 python train_model.py  # OR
 python test_model.py
 ```
+
+<h2> 🔋 Citation </h2>
+If you find this repository helpful, please cite our paper:
+```
+@article{sun2025multimodal,
+  title={A multimodal deep learning framework for enzyme turnover prediction with missing modality},
+  author={Sun, Xin and Wang, Yu Guang and Shen, Yiqing},
+  journal={Computers in Biology and Medicine},
+  volume={193},
+  pages={110348},
+  year={2025},
+  publisher={Elsevier}
+}
