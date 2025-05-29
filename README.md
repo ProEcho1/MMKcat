@@ -83,6 +83,7 @@ python test_model.py
 ```
 
 <h2> 🔋 Citation </h2>
+
 If you find this repository helpful, please cite our paper:
 ```
 @article{sun2025multimodal,
