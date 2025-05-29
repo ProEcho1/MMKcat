@@ -10,9 +10,7 @@
   <a><img src="https://img.shields.io/badge/Python-3.8.13-red"></a>
 </p> 
 
-<h2>
-Update: 2025/05/29 Our paper has been accepted by Computers in Biology and Medicine, and can be obtained from this [link](https://www.sciencedirect.com/science/article/pii/S0010482525006997).
-</h2>
+🚩 **Update: 2025/05/29 Our paper has been accepted by Computers in Biology and Medicine, and can be obtained from this [link](https://www.sciencedirect.com/science/article/pii/S0010482525006997).**
 
 ![The Overall Architecture of MMKcat.](pic/model.png)
 
